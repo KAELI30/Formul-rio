@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        
+        <h1>Cadastro pessoal</h1>
+
+        <img src="img/logo.jpg" 
+        alt="imagem de um ícone de cadastro.">
+
+    </header>
+        <div>
+            <form action="">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+
+                    </div>
+                    <p></p>
+                    <div>
+                        <label for="datanascimento">Nascimento</label>
+                        <input type="date" name="datanascimento" required>
+
+                    </div>
+                    <p></p>
+                    <div>
+                        <label for="rg">RG</label>
+                        <input type="text" name="rg" required>
+                    </div>
+                    <p></p>
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <div>
+                        <label for="rua">Rua</label>
+                        <input type="text" name="rua" required>
+
+                        <label for="email">Número</label>
+                        <input type="email" name="numero" required>
+
+                    </div>
+                    <p></p>
+                    <div>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" required>
+
+                    </div>
+                    <p></p>
+                    <div>
+                        <label for="estado">Estado</label>
+                        <select name="estado">
+                            <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option> 
+                        <option value="am">Amazonas</option> 
+                        <option value="ap">Amapá</option> 
+                        <option value="ba">Bahia</option> 
+                        <option value="ce">Ceará</option> 
+                        <option value="df">Distrito Federal</option> 
+                        <option value="es">Espírito Santo</option> 
+                        <option value="go">Goiás</option> 
+                        <option value="ma">MaranhÃ£o</option> 
+                        <option value="mt">Mato Grosso</option> 
+                        <option value="ms">Mato Grosso do Sul</option> 
+                        <option value="mg">Minas Gerais</option> 
+                        <option value="pa">ParÃ¡</option> 
+                        <option value="pb">ParaÃ­ba</option> 
+                        <option value="pr">ParanÃ¡</option> 
+                        <option value="pe">Pernambuco</option> 
+                        <option value="pi">PiauÃ­</option> 
+                        <option value="rj">Rio de Janeiro</option> 
+                        <option value="rn">Rio Grande do Norte</option> 
+                        <option value="ro">RondÃ´nia</option> 
+                        <option value="rs">Rio Grande do Sul</option> 
+                        <option value="rr">Roraima</option> 
+                        <option value="sc">Santa Catarina</option> 
+                        <option value="se">Sergipe</option> 
+                        <option value="sp">SÃ£o Paulo</option> 
+                        <option value="to">Tocantins</option>
+                        </select>
+                         
+                    </div>
+                    <p></p>
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" required>
+                    </div>
+                    <p></p>
+                    <div>
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" placeholder="000.000.000-00" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Login</legend>
+                        
+    
+                        <div>
+                            <label for="perfil">Imagem de perfil</label>
+                            <input type="file" name="perfil" >
+                        </div>
+                        <p></p>
+                        <div>
+                            <label for="usuario">Login de usuário</label>
+                            <input type="text" name="usuario" required>
+    
+                        </div>
+                        <p></p>
+                        <div>
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" required>
+    
+                        </div>
+                        <p></p>
+                        <div>
+                            <label for="confirma">Confirmar senha</label>
+                            <input type="password" name="confirma" required>
+    
+                        </div>
+                </fieldset>
+                <p></p>
+                <input type="submit" name="enviar" value="Enviar">
+                <input type="reset" name="limpar" value="Limpar">
+            </form>
+        </div>
+    
+</body>
+
+</html>
